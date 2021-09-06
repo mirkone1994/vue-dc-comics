@@ -5,7 +5,7 @@
                 <img src="@/assets/img/dc-logo.png" alt="">
             </div>
             <div class="col">
-                <ul>
+                <ul class="navbar">
                     <li><a href="">CHARACTERS</a></li>
                     <li class="active"><a href="">COMICS</a></li>
                     <li><a href="">MOVIES</a></li>
@@ -33,7 +33,6 @@ export default {
 
     .container {
         max-width: 1400px;
-        height: 200px;
         font-size: 12px;
         font-family: 'Oswald', sans-serif;
     }
@@ -41,11 +40,11 @@ export default {
         display: flex;
         justify-content: space-between;
     }
-    ul li {
+    .navbar li {
         display: inline;
         padding: 10px;
     }
-    ul li a {
+    .navbar li a {
         text-decoration: none;
         color: #000;
     }
