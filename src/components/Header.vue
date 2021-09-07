@@ -6,7 +6,7 @@
             </div>
             <div class="col">
                 <ul class="navbar">
-                    <li v-for="(link, index) in links" :key=index><a :href="link.url">{{link.text}}</a></li>
+                    <li v-for="(link, index) in links" :key=index><a :href="link.url" :class="{active: link.current}">{{link.text}}</a></li>
                 </ul>
             </div>
         </div>
@@ -93,14 +93,12 @@ export default {
         display: inline;
         padding: 10px;
     }
-    .navbar li a {
+    ul li a {
         text-decoration: none;
         color: #000;
     }
     ul .active {
         border-bottom: 1px solid #0282f9;
-    }
-    .active a {
         color: #0282f9;
     }
 </style>
