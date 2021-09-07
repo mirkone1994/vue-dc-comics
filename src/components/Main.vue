@@ -2,7 +2,7 @@
   <div class="jumbotrone">
       <div class="container">
           <div class="row">
-              <div class="col">
+              <div class="col url">
                   <div class="container">
                       <div class="row">
                             <div class="col">
@@ -69,6 +69,13 @@ export default {
         background-image: url(../assets/img/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        height: 300px;
+    }
+    .row {
+        align-items: flex-start;
+    }
+    .col.url {
+        width: 400px;
     }
     .links {
         list-style: none;
@@ -80,5 +87,10 @@ export default {
     .links li a {
         text-decoration: none;
         color: #8c8c8d;
+    }
+    .logo-bg {
+        height: 400px;
+        position: relative;
+        bottom: 50px;
     }
 </style>

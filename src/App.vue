@@ -30,9 +30,6 @@ export default {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
   }
-  #app {
-    height: 100vh;
-  }
   .container {
     max-width: 1400px;
     margin: auto;
@@ -41,7 +38,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
 </style>

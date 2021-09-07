@@ -8,22 +8,22 @@
             <div class="col">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col social">
                         <span class="follow">FOLLOW US</span>
                         </div>
-                        <div class="col">
+                        <div class="col social">
                             <img src="@/assets/img/footer-facebook.png" alt="">
                         </div>
-                        <div class="col">
+                        <div class="col social">
                             <img src="@/assets/img/footer-twitter.png" alt="">
                         </div>
-                        <div class="col">
+                        <div class="col social">
                             <img src="@/assets/img/footer-youtube.png" alt="">
                         </div>
-                        <div class="col">
+                        <div class="col social">
                             <img src="@/assets/img/footer-pinterest.png" alt="">
                         </div>
-                        <div class="col">
+                        <div class="col social">
                             <img src="@/assets/img/footer-periscope.png" alt="">
                         </div>
                     </div>
@@ -45,12 +45,17 @@ export default {
     .section {
         background-color: #303030;
         height: 150px;
+        z-index: 2;
+        position: relative;
     }
     .container {
         height: 100%;
     }
     .row {
         height: 100%;
+    }
+    .col.social {
+        padding-right: 20px;
     }
     .sign-up {
         color: #fff;

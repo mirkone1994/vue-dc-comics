@@ -38,6 +38,8 @@ export default {
 <style scoped lang="scss">
     .section {
         background-color: #0282f9;
+        position: relative;
+        z-index: 2;
     }
     .container {
         height: 200px;
