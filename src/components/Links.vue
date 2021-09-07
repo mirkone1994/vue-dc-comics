@@ -2,25 +2,9 @@
 <div class="section">
     <div class="container">
       <div class="row">
-          <div class="col">
-              <img src="@/assets/img/buy-comics-digital-comics.png" alt="">
-              <span>DIGITAL COMICS</span>
-          </div>
-          <div class="col">
-              <img src="@/assets/img/buy-comics-shop-locator.png" alt="">
-              <span>DC MERCHANDISE</span>
-          </div>
-          <div class="col">
-              <img src="@/assets/img/buy-comics-subscriptions.png" alt="">
-              <span>SUBSCRIPTION</span>
-          </div>
-          <div class="col">
-              <img src="@/assets/img/buy-comics-digital-comics.png" alt="">
-              <span>COMIC SHOP LOCATOR</span>
-          </div>
-          <div class="col">
-              <img src="@/assets/img/buy-dc-power-visa.svg" alt="">
-              <span>DC POWER VISA</span>
+          <div v-for="(link, index) in links" :key="index" class="col">
+              <img :src="link.image" :alt="link.text">
+              <span>{{link.text}}</span>
           </div>
       </div>
   </div>
@@ -31,6 +15,32 @@
 <script>
 export default {
     name: "Links",
+    data() {
+        return {
+            links: [
+                {
+                    image: require("@/assets/img/buy-comics-digital-comics.png"),
+                    text: "DIGITAL COMICS",
+                },
+                {
+                    image: require("@/assets/img/buy-comics-shop-locator.png"),
+                    text: "DC MERCHANDISE",
+                },
+                {
+                    image: require("@/assets/img/buy-comics-subscriptions.png"),
+                    text: "SUBSCRIPTION",
+                },
+                {
+                    image: require("@/assets/img/buy-comics-digital-comics.png"),
+                    text: "COMIC SHOP LOCATOR",
+                },
+                {
+                    image: require("@/assets/img/buy-dc-power-visa.svg"),
+                    text: "DC POWER VISA",
+                }
+            ]
+        }
+    }
 
 }
 </script>
