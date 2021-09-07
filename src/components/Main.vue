@@ -64,15 +64,11 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
     .jumbotrone {
         background-image: url(../assets/img/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .jumbotrone .container {
-        max-width: 1400px;
-        font-family: 'Oswald', sans-serif;
     }
     .links {
         list-style: none;
@@ -84,8 +80,5 @@ export default {
     .links li a {
         text-decoration: none;
         color: #8c8c8d;
-    }
-    .logo-bg {
-        
     }
 </style>

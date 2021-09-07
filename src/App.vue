@@ -25,9 +25,23 @@ export default {
 
 <style lang="scss">
   * {
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+  #app {
+    height: 100vh;
+  }
+  .container {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
   }
 
 </style>

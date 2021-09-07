@@ -78,16 +78,10 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
     .container {
-        max-width: 1400px;
         font-size: 12px;
-        font-family: 'Oswald', sans-serif;
-    }
-    .row {
-        display: flex;
-        justify-content: space-between;
     }
     .navbar li {
         display: inline;

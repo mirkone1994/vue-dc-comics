@@ -40,14 +40,15 @@ export default {
         background-color: #0282f9;
     }
     .container {
-        max-width: 1400px;
         height: 200px;
     }
     .row {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
+        justify-content: space-around;
         height: 100%;
+    }
+    .col {
+        display: flex;
+        align-items: center;
     }
     img {
         height: 50px;

@@ -47,13 +47,10 @@ export default {
         height: 150px;
     }
     .container {
-        max-width: 1400px;
         height: 100%;
     }
     .row {
-        display: flex;
         height: 100%;
-        justify-content: space-between;
     }
     .sign-up {
         color: #fff;
