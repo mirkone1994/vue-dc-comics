@@ -51,7 +51,7 @@
                   </div>
               </div>
               <div class="col">
-                  <img class="logo-bg" src="@/assets/img/dc-logo-bg.png" alt="">
+                  <img class="logo-bg" src="../assets/img/dc-logo-bg.png" alt="">
               </div>
           </div>
       </div>

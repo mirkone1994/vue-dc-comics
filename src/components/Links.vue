@@ -19,23 +19,23 @@ export default {
         return {
             links: [
                 {
-                    image: require("@/assets/img/buy-comics-digital-comics.png"),
+                    image: require("../assets/img/buy-comics-digital-comics.png"),
                     text: "DIGITAL COMICS",
                 },
                 {
-                    image: require("@/assets/img/buy-comics-shop-locator.png"),
+                    image: require("../assets/img/buy-comics-shop-locator.png"),
                     text: "DC MERCHANDISE",
                 },
                 {
-                    image: require("@/assets/img/buy-comics-subscriptions.png"),
+                    image: require("../assets/img/buy-comics-subscriptions.png"),
                     text: "SUBSCRIPTION",
                 },
                 {
-                    image: require("@/assets/img/buy-comics-digital-comics.png"),
+                    image: require("../assets/img/buy-comics-digital-comics.png"),
                     text: "COMIC SHOP LOCATOR",
                 },
                 {
-                    image: require("@/assets/img/buy-dc-power-visa.svg"),
+                    image: require("../assets/img/buy-dc-power-visa.svg"),
                     text: "DC POWER VISA",
                 }
             ]
